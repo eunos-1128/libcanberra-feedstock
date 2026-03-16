@@ -28,6 +28,8 @@ requirements:
   run:
     - ${{ pin_compatible("libvorbis") }}
     - ${{ pin_compatible("libtool") }}
+  run_exports:
+    - ${{ pin_subpackage("libcanberra", upper_bound='x.x') }}
 
 tests:
   - script:
