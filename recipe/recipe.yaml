@@ -1,5 +1,5 @@
 context:
-  version: 0.30
+  version: "0.30"
 
 package:
   name: libcanberra
@@ -29,7 +29,7 @@ requirements:
     - ${{ pin_compatible("libvorbis") }}
     - ${{ pin_compatible("libtool") }}
   run_exports:
-    - ${{ pin_subpackage("libcanberra", upper_bound='x.x') }}
+    - ${{ pin_subpackage("libcanberra", upper_bound="x.x") }}
 
 tests:
   - script:
