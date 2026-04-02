@@ -192,5 +192,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@eunos-1128](https://github.com/eunos-1128/)
 * [@scopatz](https://github.com/scopatz/)
 
